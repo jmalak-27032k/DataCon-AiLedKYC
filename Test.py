@@ -475,7 +475,7 @@ name_label.pack(side=tk.LEFT, padx=10)
 name_txt = tk.Entry(name_frame, font=("Helvetica", 14))
 name_txt.pack(side=tk.RIGHT, padx=10, fill=tk.X, expand=True)
 
-aadhar_label = tk.Label(aadhar_frame, text="Aadhar Card", font=("Helvetica", 14), bg="#C6E2FF")
+aadhar_label = tk.Label(aadhar_frame, text="Aadhar Card*", font=("Helvetica", 14), bg="#C6E2FF")
 aadhar_label.pack(side=tk.LEFT, padx=10)
 aadhar_file_label = tk.Label(aadhar_frame, text="", font=("Helvetica", 12), bg="#C6E2FF")
 aadhar_file_label.pack(side=tk.LEFT, padx=10)
